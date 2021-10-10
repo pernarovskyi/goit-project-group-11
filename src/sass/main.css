@@ -9,6 +9,252 @@ body {
   letter-spacing: 0.04em;
 }
 
+.btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.31;
+  letter-spacing: 0.06em;
+  background-color: #ecebeb;
+  color: #d41443;
+  border-radius: 22px;
+  padding: 20px 37px 20px 37px;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #c7133e;
+  color: #fff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.modal {
+  position: absolute;
+  min-height: 581px;
+  background-color: #e17992;
+  border-radius: 22px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 40px;
+  width: 450px;
+}
+
+.modal-form-field {
+  margin-bottom: 25px;
+}
+
+.modal-close {
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.close-icon {
+  fill: #ecebeb;
+}
+
+.close-icon:hover,
+.close-icon:focus {
+  fill: #c7133e;
+}
+
+.modal-title {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  color: #ecebeb;
+}
+
+.modal-form-lable {
+  font-size: 20px;
+  line-height: 14px;
+  color: #ecebeb;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal-form-input {
+  width: 100%;
+  height: 40px;
+  left: 576px;
+  top: 314px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 17px;
+  padding-left: 42px;
+  color: #c7133e;
+}
+
+.modal-form-input:focus, .modal-form-input:hover {
+  border-color: #c7133e;
+  outline: none;
+}
+
+.input-wrap {
+  display: block;
+  position: relative;
+  -webkit-transition: border 250ms linear;
+  transition: border 250ms linear;
+}
+
+.modal-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  fill: #ecebeb;
+}
+
+.modal-form-input:hover + .modal-icon,
+.modal-form-input:focus + .modal-icon {
+  fill: #c7133e;
+}
+
+.modal-comment {
+  width: 100%;
+  height: 120px;
+  left: 576px;
+  top: 314px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 17px;
+  padding-left: 16px;
+  padding-top: 12px;
+  resize: none;
+  color: #c7133e;
+}
+
+.modal-comment:focus, .modal-comment:hover {
+  border-color: #c7133e;
+  outline: none;
+}
+
+.modal-comment::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+.modal-comment:-ms-input-placeholder {
+  font-size: 14px;
+}
+
+.modal-comment::-ms-input-placeholder {
+  font-size: 14px;
+}
+
+.modal-comment::placeholder {
+  font-size: 14px;
+}
+
+.modal-form-link {
+  color: #c7133e;
+}
+
+.check-lable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.check-lable::before {
+  content: '';
+  width: 16px;
+  height: 15px;
+  border: 2px solid #c7133e;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.checkbox:checked + .check-lable::before {
+  background: #c7133e;
+  fill: #ecebeb;
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.modal-form-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+.ceckbox-text {
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ecebeb;
+}
+
+.modal-btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+img {
+  width: 100%;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
 h1,
 h2,
 h3,
