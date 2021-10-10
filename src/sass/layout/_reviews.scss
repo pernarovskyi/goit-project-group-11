@@ -1,0 +1,52 @@
+.reviews {
+  width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+}
+
+.reviews__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.reviews__text-wrap {
+  width: 100%;
+  background-color: #fafafa;
+  margin-bottom: 30px;
+  padding-top: 42px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 26px;
+  &::before {
+    content: '';
+    background-image: url(../images/quotes.svg);
+    width: 54px;
+    height: 40px;
+  }
+}
+
+.reviews__text {
+  //   display: block;
+  text-align: center;
+  margin: 0;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2.55;
+  background-image: repeating-linear-gradient(180deg, transparent, transparent 29px, #000000 30px);
+}
+
+.reviews__city-name {
+  display: block;
+  text-align: center;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.86;
+  color: #000000;
+}
