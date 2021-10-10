@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/Vector.svg":[["Vector.a762cf20.svg","yuZ2"],"yuZ2"],"./../images/icon-milk.png":[["icon-milk.5b898322.png","k322"],"k322"],"./../images/icon-milk-2x.png":[["icon-milk-2x.5a379ad3.png","sKeY"],"sKeY"],"./../images/icon-apple.png":[["icon-apple.84adf2e5.png","js5q"],"js5q"],"./../images/icon-apple-2x.png":[["icon-apple-2x.043785f5.png","uVhT"],"uVhT"],"./../images/icon-heart.png":[["icon-heart.e3314f0a.png","VIDZ"],"VIDZ"],"./../images/icon-heart-2x.png":[["icon-heart-2x.b048b314.png","mQhj"],"mQhj"],"./../images/dots.png":[["dots.021d9d79.png","rQHO"],"rQHO"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-project-group-11/src.cc9b0aef.js.map
+//# sourceMappingURL=/goit-project-group-11/src.31f3a5e9.js.map
