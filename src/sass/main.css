@@ -42,6 +42,12 @@ body {
   width: 450px;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+  }
+}
+
 .modal-form-field {
   margin-bottom: 25px;
 }
@@ -197,7 +203,7 @@ body {
 .checkbox:checked + .check-lable::before {
   background: #c7133e;
   fill: #ecebeb;
-  background-image: url(../img/Vector.svg);
+  background-image: url(../images/modal-vektor.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
