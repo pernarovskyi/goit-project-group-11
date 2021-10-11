@@ -9,7 +9,7 @@ body {
   letter-spacing: 0.04em;
 }
 
-.btn {
+.modal-btn {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.31;
@@ -19,10 +19,15 @@ body {
   border-radius: 22px;
   padding: 20px 37px 20px 37px;
   border: none;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
-.btn:hover,
-.btn:focus {
+.modal-btn:hover,
+.modal-btn:focus {
   background-color: #c7133e;
   color: #fff;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -237,7 +242,7 @@ body {
           transform: translate(-50%, -50%);
 }
 
-img {
+.back-img {
   width: 100%;
 }
 
