@@ -52,10 +52,10 @@
   width: 100%;
   height: 50px;
   content: '';
-  background-image: url(../images/milk.png);
+  background-image: url(../images/icon-milk.png);
   background-repeat: no-repeat;
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../images/milk-2x.png);
+    background-image: url(../images/icon-milk-2x.png);
     height: 100px;
   }
 }
@@ -65,10 +65,10 @@
   width: 100%;
   height: 50px;
   content: '';
-  background-image: url(../images/apple.png);
+  background-image: url(../images/icon-apple.png);
   background-repeat: no-repeat;
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../images/apple-2x.png);
+    background-image: url(../images/icon-apple-2x.png);
     height: 100px;
   }
 }
@@ -78,10 +78,10 @@
   width: 100%;
   height: 50px;
   content: '';
-  background-image: url(../images/heart.png);
+  background-image: url(../images/icon-heart.png);
   background-repeat: no-repeat;
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../images/heart-2x.png);
+    background-image: url(../images/icon-heart-2x.png);
     height: 100px;
   }
 }
