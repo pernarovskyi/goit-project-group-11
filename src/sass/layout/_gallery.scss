@@ -1,39 +1,14 @@
 .gallery {
-  background-image: linear-gradient(to bottom, #fff5f6 40%, #e5e5e5);
+  background-image: linear-gradient(to bottom, #fff5f6 40%, #ffffff 40%);
   width: 100vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 123px;
-
-  @media screen and (min-width: 320px) {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 768px;
-    padding-left: 74px;
-    padding-right: 74px;
-  }
-
-  @media screen and (min-width: 1280px) {
-    width: 1280px;
-    padding-left: 135px;
-    padding-right: 135px;
-  }
+  padding-bottom: 123px;
 }
 
 .item {
   border-radius: 20px;
-  margin: 5px;
-  padding: 1px;
-  width: 100px;
+  padding: 5px;
+}
 
-  @media screen and (min-width: 1280px) {
-    width: 210px;
-  }
+.persent-size {
+  width: 25%;
 }

@@ -2,6 +2,7 @@
   max-width: 480px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 170px;
   margin-left: auto;
   margin-right: auto;
 
@@ -9,17 +10,20 @@
     max-width: 768px;
     padding-left: 74px;
     padding-right: 74px;
+    padding-bottom: 197px;
   }
 
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
     padding-left: 176px;
     padding-right: 176px;
+    padding-bottom: 234px;
   }
 }
 
 .reviews__img {
   display: block;
+  width: 85px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
