@@ -22,14 +22,14 @@
     background-image: none;
   }
   @media screen and (min-width: 1200px) {
-    background-image: url('./images/milk-desk-1.png');
+    background-image: url('../images/milk-desk-1.png');
     background-position: 0 342px;
   }
   @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
     screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
     screen and (min-width: 1200px) and (min-resolution: 192dpi),
     screen and (min-width: 1200px) and (min-resolution: 2dppx) {
-    background-image: url('./images/milk-desk-2.png');
+    background-image: url('../images/milk-desk-2.png');
   }
 }
 
