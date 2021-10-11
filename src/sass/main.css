@@ -253,7 +253,11 @@ body {
   }
 }
 
+<<<<<<< Updated upstream
 .btn-modal {
+=======
+.btn {
+>>>>>>> Stashed changes
   font-weight: bold;
   font-size: 16px;
   line-height: 1.31;
@@ -265,8 +269,13 @@ body {
   border: none;
 }
 
+<<<<<<< Updated upstream
 .btn-modal:hover,
 .btn-modal:focus {
+=======
+.btn:hover,
+.btn:focus {
+>>>>>>> Stashed changes
   background-color: #c7133e;
   color: #fff;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -475,7 +484,11 @@ body {
           transform: translate(-50%, -50%);
 }
 
+<<<<<<< Updated upstream
 img {
+=======
+.modal-img {
+>>>>>>> Stashed changes
   width: 100%;
 }
 
