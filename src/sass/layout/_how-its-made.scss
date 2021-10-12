@@ -38,11 +38,9 @@
   margin-left: auto;
   margin-right: auto;
   width: 320px;
+
   @media screen and (min-width: 768px) {
-    width: 768px;
-  }
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
+    width: 100%;
   }
 }
 
@@ -68,7 +66,7 @@
 
 .how-its-made__second-title {
   font-family: Titan One;
-  width: 200px;
+  width: 100%;
   font-size: 34px;
   line-height: 39px;
   text-align: center;
@@ -91,18 +89,18 @@
 
 .how-its-made-picture-and-text {
   @media screen and (min-width: 768px) {
-    display: flex;
+    display: inline-flex;
   }
 }
 
 .how-its-made__picture {
-  margin-left: 20px;
+  // margin-left: 20px;
   @media screen and (min-width: 768px) {
-    margin-left: 37px;
+    // margin-left: 37px;
     margin-right: 17px;
   }
   @media screen and (min-width: 1200px) {
-    margin-left: 71px;
+    // margin-left: 71px;
     margin-right: 74px;
   }
 }
@@ -112,7 +110,7 @@
   margin: 0 auto 46px auto;
   @media screen and (min-width: 768px) {
     width: 100%;
-    margin-bottom: 0;
+    margin: 0;
   }
 }
 
@@ -185,10 +183,10 @@
   }
 }
 
-.how-its-made__icon {
-  margin-left: 8px;
-  fill: #d41443;
-}
+// .how-its-made__icon {
+//   margin-left: 8px;
+//   fill: #d41443;
+// }
 
 .how-its-made__read-more {
   margin-right: 12px;
