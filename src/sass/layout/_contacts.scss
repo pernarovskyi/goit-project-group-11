@@ -45,7 +45,7 @@ body{
     background-repeat: no-repeat;
     
     background-size: contain;
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         background-image: url(../images/dots.png), linear-gradient(rgba(255, 245, 246, 1), rgba(255, 245, 246, 1));
         background-position: right 0px top 102px;
     }
@@ -96,7 +96,7 @@ body{
     }
 
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         
         padding: 51px 40px 62px 40px;
        
@@ -221,10 +221,12 @@ body{
     color: #fff;
     border: 0;
     border-radius: 100px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     @media screen and (min-width:1200px) {
         width: 198px;
     }
-    &:hover{
+    &:hover,
+    &:focus{
         background-color: rgba(199, 19, 62, 1);
     }
     @media screen and (max-width:767px) {
@@ -242,7 +244,7 @@ body{
     border-radius: 100px;
     color: #D41443;
     background-color: #fff;
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     @media screen and (min-width:1200px) {
         width: 198px;
     }
