@@ -21,6 +21,7 @@
   </head>
   <body>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+    <include src="./partials/modal.html"></include>
     <include src="./partials/header.html"></include>
     <include src="./partials/hero.html"></include>
     <include src="./partials/products.html"></include>
@@ -36,16 +37,16 @@
     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
     <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.js"></script>
     <script>
-
       jQuery(document).ready(function ($) {
-          $('.gallery-masonry').masonry({
-        // options
+        $('.gallery-masonry').masonry({
+          // options
           itemSelector: '.item',
           columnWidth: '.persent-size',
-          percentPosition: true
+          percentPosition: true,
         });
       });
     </script>
     <script src="./index.js"></script>
+    <script src="./modal.js"></script>
   </body>
 </html>
