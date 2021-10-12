@@ -217,9 +217,13 @@ body{
     color: #fff;
     border: 0;
     border-radius: 100px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     @media screen and (min-width:1200px) {
         width: 198px;
     }
+
+
     &:hover,
     &:focus{
         background-color: rgba(199, 19, 62, 1);
@@ -239,6 +243,8 @@ body{
     border-radius: 100px;
     color: #D41443;
     background-color: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     
     @media screen and (min-width:1200px) {
         width: 198px;
