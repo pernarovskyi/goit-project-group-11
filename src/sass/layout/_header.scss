@@ -51,13 +51,15 @@
     background-image: url(../../src/images/logo.png);
 
     @media screen and (min-width: 1200px) {
+      position: absolute;
+      left: -70px;
     }
   }
 }
 
 .header-nav {
   display: none;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     display: block;
   }
 }

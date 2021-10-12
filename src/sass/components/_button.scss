@@ -114,7 +114,9 @@
   border-radius: 50%;
   background-color: var(--first-text-color);
   @media screen and (min-width: 768px) {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 7px;
   }
   @media screen and (min-width: 1200px) {
@@ -125,10 +127,10 @@
 }
 
 .arrow-btn {
-  width: 18px;
+  min-width: 18px;
   height: 18px;
   @media screen and (min-width: 1200px) {
-    width: 26px;
+    min-width: 26px;
     height: 26px;
   }
 }
