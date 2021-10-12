@@ -8,6 +8,10 @@
   border-radius: 22px;
   padding: 20px 37px 20px 37px;
   border: none;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .btn-modal:hover,
@@ -15,6 +19,8 @@
   background-color: #c7133e;
   color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -169,13 +175,6 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ecebeb;
-}
-
-.modal-btn {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .modal-img {

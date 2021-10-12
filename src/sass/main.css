@@ -253,11 +253,7 @@ body {
   }
 }
 
-<<<<<<< Updated upstream
 .btn-modal {
-=======
-.btn {
->>>>>>> Stashed changes
   font-weight: bold;
   font-size: 16px;
   line-height: 1.31;
@@ -267,19 +263,23 @@ body {
   border-radius: 22px;
   padding: 20px 37px 20px 37px;
   border: none;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
-<<<<<<< Updated upstream
 .btn-modal:hover,
 .btn-modal:focus {
-=======
-.btn:hover,
-.btn:focus {
->>>>>>> Stashed changes
   background-color: #c7133e;
   color: #fff;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -476,19 +476,7 @@ body {
   color: #ecebeb;
 }
 
-.modal-btn {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-<<<<<<< Updated upstream
-img {
-=======
 .modal-img {
->>>>>>> Stashed changes
   width: 100%;
 }
 
