@@ -45,7 +45,7 @@ body{
     background-repeat: no-repeat;
     
     background-size: contain;
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         background-image: url(../images/dots.png), linear-gradient(rgba(255, 245, 246, 1), rgba(255, 245, 246, 1));
         background-position: right 0px top 102px;
     }
@@ -96,7 +96,7 @@ body{
     }
 
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         
         padding: 51px 40px 62px 40px;
        

@@ -9,7 +9,7 @@
     width: 768px;
     padding-bottom: 112px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     width: 1200px;
     padding-top: 127px;
     padding-bottom: 119px;
@@ -33,7 +33,7 @@
     font-size: 26px;
     line-height: 1.15;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     width: 100%;
     font-size: 30px;
     line-height: 1.13;
@@ -57,7 +57,7 @@
     font-size: 48px;
     margin-bottom: 150px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 58px;
     margin-bottom: 259px;
   }
@@ -89,7 +89,7 @@
   @media screen and (min-width: 768px) {
     margin-top: 152px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 30px;
     line-height: 1.13;
     margin-top: 163px;
@@ -122,7 +122,7 @@
     margin-bottom: 40px;
     padding: 0 10px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     max-width: 1200px;
     font-size: 16px;
     padding: 0 40px;
@@ -142,7 +142,7 @@
     margin-bottom: 0px;
     margin-right: 20px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     width: 329px;
     height: 525px;
   }
@@ -170,12 +170,12 @@
       background-image: url(../images/ice-cream2x2-min.png);
       background-size: contain;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
       width: 335px;
       height: 335px;
       background-image: url(../images/ice-cream3x1-min.png);
     }
-    @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+    @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: url(../images/ice-cream3x2-min.png);
@@ -199,7 +199,7 @@
     margin-bottom: 0px;
     margin-right: 20px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     width: 329px;
     height: 525px;
   }
@@ -227,12 +227,12 @@
       background-image: url(../images/coffee2x2-min.png);
       background-size: contain;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
       width: 335px;
       height: 335px;
       background-image: url(../images/coffee3x1-min.png);
     }
-    @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+    @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: url(../images/coffee3x2-min.png);
@@ -252,7 +252,7 @@
     width: 220px;
     margin-bottom: 0px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     width: 329px;
     height: 525px;
   }
@@ -280,12 +280,12 @@
       background-image: url(../images/milk2x2-min.png);
       background-size: contain;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
       width: 335px;
       height: 335px;
       background-image: url(../images/milk3x1-min.png);
     }
-    @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+    @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: url(../images/milk3x2-min.png);

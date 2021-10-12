@@ -21,11 +21,11 @@
   @media screen and (min-width: 768px) {
     background-image: none;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     background-image: url('../images/milk-desk-1.png');
     background-position: 0 342px;
   }
-  @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+  @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
     screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
     screen and (min-width: 1200px) and (min-resolution: 192dpi),
     screen and (min-width: 1200px) and (min-resolution: 2dppx) {
@@ -40,7 +40,7 @@
   @media screen and (min-width: 768px) {
     width: 768px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     width: 1200px;
   }
 }
@@ -57,7 +57,7 @@
     line-height: 1.15;
     margin-bottom: 16px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 1.13;
@@ -80,7 +80,7 @@
     line-height: 1.15;
     margin-bottom: 50px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 58px;
     line-height: 1.14;
     letter-spacing: 0.06em;
@@ -100,7 +100,7 @@
     margin-left: 37px;
     margin-right: 17px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-left: 71px;
     margin-right: 74px;
   }
@@ -128,7 +128,7 @@
     font-size: 14px;
     line-height: 1.76;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-top: 51px;
     max-width: 463px;
   }
@@ -141,7 +141,7 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 49px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 35px;
     font-size: 16px;
     line-height: 176%;
@@ -156,7 +156,7 @@
     margin-bottom: 62px;
     letter-spacing: 0.04em;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 45px;
     line-height: 1.94;
   }
@@ -167,7 +167,7 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 7px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 0px;
   }
 }
