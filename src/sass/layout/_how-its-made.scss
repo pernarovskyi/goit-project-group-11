@@ -17,6 +17,7 @@
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     padding-top: 130px;
+    padding-bottom: 66px;
   }
   @media screen and (min-width: 768px) {
     background-image: none;
@@ -37,11 +38,13 @@
   margin-left: auto;
   margin-right: auto;
   width: 320px;
+
   @media screen and (min-width: 768px) {
     width: 768px;
   }
   @media screen and (min-width: 1280px) {
-    width: 1200px;
+    // width: 1200px;
+    width: 100%;
   }
 }
 
@@ -67,7 +70,7 @@
 
 .how-its-made__second-title {
   font-family: Titan One;
-  width: 200px;
+  width: 100%;
   font-size: 34px;
   line-height: 39px;
   text-align: center;
@@ -90,18 +93,16 @@
 
 .how-its-made-picture-and-text {
   @media screen and (min-width: 768px) {
-    display: flex;
+    display: inline-flex;
   }
 }
 
 .how-its-made__picture {
-  margin-left: 20px;
   @media screen and (min-width: 768px) {
-    margin-left: 37px;
     margin-right: 17px;
   }
+
   @media screen and (min-width: 1280px) {
-    margin-left: 71px;
     margin-right: 74px;
   }
 }
@@ -111,7 +112,7 @@
   margin: 0 auto 46px auto;
   @media screen and (min-width: 768px) {
     width: 100%;
-    margin-bottom: 0;
+    margin: 0;
   }
 }
 
@@ -167,6 +168,7 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 7px;
   }
+
   @media screen and (min-width: 1280px) {
     margin-bottom: 0px;
   }
@@ -178,16 +180,10 @@
   background: #ffffff;
   border-radius: 22px;
   border: none;
-  &:hover,
-  &:focus {
+  &:hover {
     background: #ecebeb;
     cursor: pointer;
   }
-}
-
-.how-its-made__icon {
-  margin-left: 8px;
-  fill: #d41443;
 }
 
 .how-its-made__read-more {
