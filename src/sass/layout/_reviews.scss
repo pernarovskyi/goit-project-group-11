@@ -39,6 +39,7 @@
 
 .reviews__text-wrap {
   width: 100%;
+  position: relative;
   background-color: #fafafa;
   margin-bottom: 30px;
   padding-top: 42px;
@@ -51,13 +52,25 @@
     background-image: url(../images/quotes.svg);
     width: 54px;
     height: 40px;
+    top: 27px;
+    left: 60px;
+
+    @media screen and (min-width: 768px) {
+      top: 27px;
+      left: 20px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      top: 27px;
+      left: 30px;
+    }
   }
 
   @media screen and (min-width: 768px) {
     margin-bottom: 24px;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 15px;
   }
 }
