@@ -1,68 +1,46 @@
 <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-          <button type="button" class="modal-close" data-modal-close>
-            <svg class="close-icon" width="15" height="15">
-              <use href="./images/sprite-con.svg#icon-close"></use>
-            </svg>
-          </button>
-          <form action="+" class="modal-form">
-            <b class="modal-title">Leave your contacts and we'll call you back</b>
-            <div class="modal-form-field">
-              <label for="input-name" class="modal-form-lable"></label>
-              <span class="input-wrap">
-                <input
-                  type="text"
-                  id="input-name"
-                  placeholder="Name"
-                  class="modal-form-input"
-                />
-                <svg class="modal-icon" width="15" height="15">
-                  <use href="./images/sprite-con.svg#icon-user"></use>
-                </svg>
-              </span>
-            </div>
-            <div class="modal-form-field">
-              <label for="input-tel" class="modal-form-lable"></label>
-              <span class="input-wrap">
-                <input
-                  type="text"
-                  id="input-tel"
-                  placeholder="+380"
-                  class="modal-form-input"
-                />
-                <svg class="modal-icon" width="15" height="15">
-                  <use href="./images/sprite-con.svg#icon-phone"></use>
-                </svg>
-              </span>
-            </div>
+  <div class="modal">
+    <button type="button" class="modal-close" data-modal-close>
+      <svg class="close-icon" width="15" height="15">
+        <use href="./images/sprite-con.svg#icon-close"></use>
+      </svg>
+    </button>
+    <form action="+" class="modal-form">
+      <b class="modal-title">Leave your contacts and we'll call you back</b>
+      <div class="modal-form-field">
+        <label for="input-name" class="modal-form-lable"></label>
+        <span class="input-wrap">
+          <input type="text" id="input-name" placeholder="Name" class="modal-form-input" />
+          <svg class="modal-icon" width="15" height="15">
+            <use href="./images/sprite-con.svg#icon-user"></use>
+          </svg>
+        </span>
+      </div>
+      <div class="modal-form-field">
+        <label for="input-tel" class="modal-form-lable"></label>
+        <span class="input-wrap">
+          <input type="text" id="input-tel" placeholder="+380" class="modal-form-input" />
+          <svg class="modal-icon" width="15" height="15">
+            <use href="./images/sprite-con.svg#icon-phone"></use>
+          </svg>
+        </span>
+      </div>
 
-            <div class="modal-form-field">
-              <label for="input-comment" class="modal-form-lable"
-                >Comennt</label
-              >
-              <textarea
-                name="modal-comment"
-                id="comment"
-                placeholder=""
-                class="modal-comment"
-              ></textarea>
-            </div>
-            <div class="modal-form-text">
-              <input
-                type="checkbox"
-                id="check"
-                class="visually-hidden checkbox"
-                name="policy"
-              />
-              <label for="check" class="check-lable"
-                ><span class="ceckbox-text"
-                  >I agree to the terms of service
-                  <a href="" class="modal-form-link">terms of service </a>
-                </span></label
-              >
-            </div>
-            <div class="modal-footer">
-            <button class="btn-modal" type="button">Buy now </button>
-          </form>
-          <img class="modal-img" src="./images/milk-mob-1.png" alt="" /></div>
-        </div>
+      <div class="modal-form-field">
+        <label for="input-comment" class="modal-form-lable">Comennt</label>
+        <textarea name="modal-comment" id="comment" placeholder="" class="modal-comment"></textarea>
+      </div>
+      <div class="modal-form-text">
+        <input type="checkbox" id="check" class="visually-hidden checkbox" name="policy" />
+        <label for="check" class="check-lable"
+          ><span class="ceckbox-text"
+            >I agree to the terms of service
+            <a href="" class="modal-form-link">terms of service </a>
+          </span></label
+        >
+      </div>
+      <button class="btn-modal" type="button">Buy now</button>
+      <img class="modal-img" src="./images/milk-mob-1.png" alt="" />
+    </form>
+  </div>
+</div>
