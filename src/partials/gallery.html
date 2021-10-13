@@ -1,37 +1,20 @@
 <section class="gallery">
-  <div class="container">
-    <div class="gallery-masonry">
-      <img class="item persent-size"
-        srcset="./images/icecream1.jpg 370w, ./images/icecream1@2x.jpg 740w"
-        src="./images/icecream1.jpg" alt="мороженное" />
-      <img class="item persent-size"
-        srcset="./images/icecream2.jpg 370w, ./images/icecream2@2x.jpg 740w"
-        src="./images/icecream2.jpg" alt="мороженное" />
-      <img class="item persent-size"
-        srcset="./images/icecream3.jpg 370w, ./images/icecream3@2x.jpg 740w"
-        src="./images/icecream3.jpg" alt="мороженное" />
-      <img class="item persent-size"
-        srcset="./images/icecream4.jpg 370w, ./images/icecream4@2x.jpg 740w"
-        src="./images/icecream4.jpg" alt="мороженное" />
-      <img class="item persent-size"
-        srcset="./images/icecream5.jpg 370w, ./images/icecream5@2x.jpg 740w"
-        src="./images/icecream5.jpg" alt="мороженное" />
-      <img class="item persent-size"
-        srcset="./images/icecream6.jpg 370w, ./images/icecream6@2x.jpg 740w"
-        src="./images/icecream6.jpg" alt="мороженное" />
-      <img class="item persent-size"
-        srcset="./images/icecream7.jpg 370w, ./images/icecream7@2x.jpg 740w"
-        src="./images/icecream7.jpg" alt="мороженное" />
-      <img class="item persent-size"
-        srcset="./images/icecream8.jpg 370w, ./images/icecream8@2x.jpg 740w"
-        src="./images/icecream8.jpg" alt="мороженное" />
-      <img class="item persent-size"
-        srcset="./images/icecream9.jpg 370w, ./images/icecream9@2x.jpg 740w"
-        src="./images/icecream9.jpg" alt="мороженное" />
-      <img class="item persent-size"
-        srcset="./images/icecream11.jpg 370w, ./images/icecream11@2x.jpg 740w"
-        src="./images/icecream11.jpg" alt="мороженное" />
-    </div>
+  <div class="container_gallery">
+    <picture>
+      <source
+        srcset="./images/home@gallery-desktop-1x.jpg 1x, ./images/home@gallery-desktop-2x.jpg 2x"
+        media="(min-width:1200px)"
+      />
+      <source
+        srcset="./images/home@gallery-tablet-1x.jpg 1x, ./images/home@gallery-tablet-2x.jpg 2x"
+        media="(min-width:768px)"
+      />
+      <img
+        class="gallery-picture"
+        srcset="./images/home@gallery-mobile-1x.jpg 1x, ./images/home@gallery-mobile-2x.jpg 2x"
+        src="./images/home@gallery-mobile-1x.jpg"
+        alt="Gallery"
+      />
+    </picture>
   </div>
 </section>
-
