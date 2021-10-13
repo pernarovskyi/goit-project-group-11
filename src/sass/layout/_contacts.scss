@@ -137,10 +137,13 @@ body {
     width: 100%;
     height: 1px;
     background-color: #e1e1e1;
-    bottom: 210px;
+    bottom: 190px;
     left: 0px;
     @media screen and (min-width: 768px) {
-      bottom: 265px;
+      bottom: 242px;
+    }
+    @media screen and (min-width: 1280px) {
+      bottom: 260px;
     }
     &::after {
       position: absolute;
