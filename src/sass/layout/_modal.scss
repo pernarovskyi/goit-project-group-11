@@ -5,6 +5,7 @@
   background: rgba(0, 0, 0, 0.2);
   top: 0;
   transition: transform 250ms linear;
+  z-index: 99;
 
   &.is-hidden {
     opacity: 0;
