@@ -67,9 +67,6 @@
 .product-content {
   margin: 0;
   padding: 0;
-}
-
-.product-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -317,4 +314,8 @@
 .icon-arrow {
   text-align: center;
   fill: #d41443;
+  &:hover,
+  &:focus {
+    fill: #ecebeb;
+  }
 }
