@@ -27,7 +27,7 @@
       </div>
 
       <div class="modal-form-field">
-        <label for="input-comment" class="modal-form-lable">Comennt</label>
+        <label for="input-comment" class="modal-form-lable" id="input-comment">Comennt</label>
         <textarea name="modal-comment" id="comment" placeholder="" class="modal-comment"></textarea>
       </div>
       <div class="modal-form-text">
@@ -40,7 +40,13 @@
         >
       </div>
       <!-- <img class="modal-img" src="./images/milk-mob-1.png" alt="" /> -->
-      <button class="btn-modal" type="button">Buy now</button>
+      <button class="btn-modal" type="button">
+        <span class="btn-modal-word">
+          Buy now
+          <svg class="modal-btn-icon" width="30" height="30">
+            <use href="./images/modal-ice-cream.svg#icon-ice-cream-modal"></use></svg
+        ></span>
+      </button>
     </form>
   </div>
 </div>
