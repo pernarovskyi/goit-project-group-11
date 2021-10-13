@@ -48,7 +48,9 @@
   }
 }
 
-.how-its-made__first-title {
+.how-its-made__title-label {
+  display: block;
+    text-align: center;
   font-family: Titan One;
   font-size: 18px;
   line-height: 1.17;
@@ -68,7 +70,7 @@
   }
 }
 
-.how-its-made__second-title {
+.how-its-made__title {
   font-family: Titan One;
   width: 100%;
   font-size: 34px;
